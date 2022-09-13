@@ -1,0 +1,34 @@
+problem1(inputFileName, outputFileName, blendCo, darkCo, mode)
+
+#inputFileName is the file name of the input file
+#outputFileName is the name of the file to be saved
+#blendCo is the blending coefficent between the mask and the picture
+#darkCo is the darkenig coefficent
+#mode is set to 1 for simple light leak and 2 for rainbow light leak
+#example call: problem1("face1.jpg", "test.jpg", 21, 7, 2)
+
+
+problem2(inputFileName, outputFileName, blendCo, maskSize, mode)
+
+#inputFileName is the file name of the input file
+#outputFileName is the name of the file to be saved
+#blendCo is the blending coefficent between the mask and the picture
+#maskSize is the size of the mask for the motion blur
+#mode = 1 for greyscale and 2 for colour
+
+
+problem3(inputFileName, outputFileName)
+
+#inputFileName is the file name of the input file
+#outputFileName is the name of the file to be saved 
+
+
+problem4(inputFileName, outputFileName, swirlAmount, radius, mode, prefilter)
+
+#inputFileName is the file name of the input file
+#outputFileName is the name of the file to be saved 
+#swirlAmount is the number of rotations
+#radius is the radius of the swirl area
+#mode = 1 is nearest neighbour, mode = 2 is bilineal interpolation
+#prefilter = 1 is prefilter
+#Example call: problem4("face1.jpg", "test4.jpg", 0.3, 200, 1, 0)
