@@ -179,7 +179,7 @@ def subtract():
 
 
 #problem1("face2.jpg", "test1.jpg", 21, 7, 2)
-#problem2("face1.jpg", "test2.jpg", 0.9, 5, 2)
+problem2("face1.jpg", "test2.jpg", 0.9, 5, 2)
 #problem3("face2.jpg", "test3.jpg")
 #problem4("face2.jpg", "test4.jpg", 2, 150, 2, 0)
 #problem4("test4.jpg", "test5.jpg", -0.3, 200, 1, 0)
